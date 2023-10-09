@@ -22,5 +22,4 @@ content:
 design:
   view: custom
   columns: '1'
-  news_cols: 3
 ---

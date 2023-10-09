@@ -16,8 +16,8 @@ main:
     url: concept
     weight: 1
 
-  - name: Members
-    url: people
+  - name: Partners
+    url: partners
     weight: 2
 
   - name: Publications
@@ -31,3 +31,7 @@ main:
   - name: Contact
     url: contact
     weight: 5
+  
+  - name: Instructions for dissemination
+    url: instructions
+    weight: 6
