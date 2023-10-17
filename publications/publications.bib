@@ -1,432 +1,1070 @@
-
-academic import --bibtex publications/publications.bib
-
-
 @article{10.1371/journal.pone.0274608,
-    doi = {10.1371/journal.pone.0274608},
-    author = {Viroonluecha, Phuwadol AND Egea-Lopez, Esteban AND Santa, Jose},
-    journal = {PLOS ONE},
-    publisher = {Public Library of Science},
-    title = {Evaluation of blood glucose level control in type 1 diabetic patients using deep reinforcement learning},
-    year = {2022},
-    month = {09},
-    volume = {17},
-    url = {https://doi.org/10.1371/journal.pone.0274608},
-    pages = {1-23},
-    abstract = {Diabetes mellitus is a disease associated with abnormally high levels of blood glucose due to a lack of insulin. Combining an insulin pump and continuous glucose monitor with a control algorithm to deliver insulin is an alternative to patient self-management of insulin doses to control blood glucose levels in diabetes mellitus patients. In this work, we propose a closed-loop control for blood glucose levels based on deep reinforcement learning. We describe the initial evaluation of several alternatives conducted on a realistic simulator of the glucoregulatory system and propose a particular implementation strategy based on reducing the frequency of the observations and rewards passed to the agent, and using a simple reward function. We train agents with that strategy for three groups of patient classes, evaluate and compare it with alternative control baselines. Our results show that our method is able to outperform baselines as well as similar recent proposals, by achieving longer periods of safe glycemic state and low risk.},
-    number = {9},
-
+	title        = {
+		Evaluation of blood glucose level control in type 1 diabetic patients using
+		deep reinforcement learning
+	},
+	author       = {Viroonluecha, Phuwadol AND Egea-Lopez, Esteban AND Santa, Jose},
+	year         = 2022,
+	month        = {09},
+	journal      = {PLOS ONE},
+	publisher    = {Public Library of Science},
+	volume       = 17,
+	number       = 9,
+	pages        = {1--23},
+	doi          = {10.1371/journal.pone.0274608},
+	url          = {https://doi.org/10.1371/journal.pone.0274608},
+	abstract     = {
+		Diabetes mellitus is a disease associated with abnormally high levels of
+		blood glucose due to a lack of insulin. Combining an insulin pump and
+		continuous glucose monitor with a control algorithm to deliver insulin is an
+		alternative to patient self-management of insulin doses to control blood
+		glucose levels in diabetes mellitus patients. In this work, we propose a
+		closed-loop control for blood glucose levels based on deep reinforcement
+		learning. We describe the initial evaluation of several alternatives
+		conducted on a realistic simulator of the glucoregulatory system and propose
+		a particular implementation strategy based on reducing the frequency of the
+		observations and rewards passed to the agent, and using a simple reward
+		function. We train agents with that strategy for three groups of patient
+		classes, evaluate and compare it with alternative control baselines. Our
+		results show that our method is able to outperform baselines as well as
+		similar recent proposals, by achieving longer periods of safe glycemic state
+		and low risk.
+	},
 }
 
 @article{SKORINKAPOV2024102941,
-title = {Scheduling aerial resource operations for the extinction of large-scale wildfires},
-journal = {Omega},
-volume = {122},
-pages = {102941},
-year = {2024},
-issn = {0305-0483},
-doi = {https://doi.org/10.1016/j.omega.2023.102941},
-url = {https://www.sciencedirect.com/science/article/pii/S0305048323001056},
-author = {Nina Skorin-Kapov and Luka Mesarić and Fernando Pereñíguez García and Lea Skorin-Kapov},
-keywords = {Aerial firefighting, Scheduling, Mixed integer linear programming model, Randomized greedy heuristic, Simulated annealing},
-abstract = {The significant increase in large-scale wildfire events in recent decades, caused primarily by climate change, has resulted in a growing number of aerial resources being used in suppression efforts. Present-day management lacks efficient and scalable algorithms for complex aerial resource allocation and scheduling for the extinction of such fires, which is crucial to ensuring safety while maximizing the efficiency of operations. In this work, we present a Mixed Integer Linear Programming (MILP) optimization model tailored to large-scale wildfires for the daily scheduling of aerial operations. The main objective is to achieve a prioritized target water flow over all areas of operation and all time periods. Minimal target completion across individual areas and time periods and total water output are also maximized as secondary and ternary objectives, respectively. An efficient and scalable multi-start heuristic, combining a randomized greedy approach with simulated annealing employing large neighborhood search techniques, is proposed for larger instances. A diverse set of problem instances is generated with varying sizes and extinction strategies to test the approaches. Results indicate that the heuristic can achieve (near)-optimal solutions for smaller instances solvable by the MILP, and gives solutions approaching target water flows for larger problem sizes. The algorithm is parallelizable and has been shown to give promising results in a small number of iterations, making it applicable for both night-before planning and, more time-sensitive, early-morning scheduling.}
+	title        = {
+		Scheduling aerial resource operations for the extinction of large-scale
+		wildfires
+	},
+	author       = {
+		Nina Skorin-Kapov and Luka Mesari\'{c} and Fernando Pere\~{n}\'{\i}guez
+		Garc\'{\i}a and Lea Skorin-Kapov
+	},
+	year         = 2024,
+	journal      = {Omega},
+	volume       = 122,
+	pages        = 102941,
+	doi          = {https://doi.org/10.1016/j.omega.2023.102941},
+	issn         = {0305-0483},
+	url          = {https://www.sciencedirect.com/science/article/pii/S0305048323001056},
+	keywords     = {
+		Aerial firefighting, Scheduling, Mixed integer linear programming model,
+		Randomized greedy heuristic, Simulated annealing
+	},
+	abstract     = {
+		The significant increase in large-scale wildfire events in recent decades,
+		caused primarily by climate change, has resulted in a growing number of
+		aerial resources being used in suppression efforts. Present-day management
+		lacks efficient and scalable algorithms for complex aerial resource
+		allocation and scheduling for the extinction of such fires, which is crucial
+		to ensuring safety while maximizing the efficiency of operations. In this
+		work, we present a Mixed Integer Linear Programming (MILP) optimization model
+		tailored to large-scale wildfires for the daily scheduling of aerial
+		operations. The main objective is to achieve a prioritized target water flow
+		over all areas of operation and all time periods. Minimal target completion
+		across individual areas and time periods and total water output are also
+		maximized as secondary and ternary objectives, respectively. An efficient and
+		scalable multi-start heuristic, combining a randomized greedy approach with
+		simulated annealing employing large neighborhood search techniques, is
+		proposed for larger instances. A diverse set of problem instances is
+		generated with varying sizes and extinction strategies to test the
+		approaches. Results indicate that the heuristic can achieve (near)-optimal
+		solutions for smaller instances solvable by the MILP, and gives solutions
+		approaching target water flows for larger problem sizes. The algorithm is
+		parallelizable and has been shown to give promising results in a small number
+		of iterations, making it applicable for both night-before planning and, more
+		time-sensitive, early-morning scheduling.
+	},
 }
 
 @article{Gomez-Rios2023,
-title = {ORIENTATE: automated machine learning classifiers for oral health prediction and research},
-journal = {BMC Oral Health},
-volume = {408},
-pages = {23},
-year = {2023},
-issn = {0305-0483},
-doi = {https://doi.org/10.1186/s12903-023-03112-w},
-url = {https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-023-03112-w},
-author = {Gomez-Rios, Inmaculada and Egea-Lopez, Esteban and Ortiz Ruiz, Antonio José},
-keywords = {Aerial firefighting, Scheduling, Mixed integer linear programming model, Randomized greedy heuristic, Simulated annealing},
-abstract = {The application of data-driven methods is expected to play an increasingly important role in healthcare. However, a lack of personnel with the necessary skills to develop these models and interpret its output is preventing a wider adoption of these methods. To address this gap, we introduce and describe ORIENTATE, a software for automated application of machine learning classification algorithms by clinical practitioners lacking specific technical skills. ORIENTATE allows the selection of features and the target variable, then automatically generates a number of classification models and cross-validates them, finding the best model and evaluating it. It also implements a custom feature selection algorithm for systematic searches of the best combination of predictors for a given target variable. Finally, it outputs a comprehensive report with graphs that facilitates the explanation of the classification model results, using global interpretation methods, and an interface for the prediction of new input samples. Feature relevance and interaction plots provided by ORIENTATE allow to use it for statistical inference, which can replace and/or complement classical statistical studies.}
+	title        = {
+		ORIENTATE: automated machine learning classifiers for oral health prediction
+		and research
+	},
+	author       = {
+		Gomez-Rios, Inmaculada and Egea-Lopez, Esteban and Ortiz~Ruiz, Antonio
+		Jos\'{e}
+	},
+	year         = 2023,
+	journal      = {BMC Oral Health},
+	volume       = 408,
+	pages        = 23,
+	doi          = {https://doi.org/10.1186/s12903-023-03112-w},
+	issn         = {0305-0483},
+	url          = {https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-023-03112-w},
+	keywords     = {
+		Aerial firefighting, Scheduling, Mixed integer linear programming model,
+		Randomized greedy heuristic, Simulated annealing
+	},
+	abstract     = {
+		The application of data-driven methods is expected to play an increasingly
+		important role in healthcare. However, a lack of personnel with the necessary
+		skills to develop these models and interpret its output is preventing a wider
+		adoption of these methods. To address this gap, we introduce and describe
+		ORIENTATE, a software for automated application of machine learning
+		classification algorithms by clinical practitioners lacking specific
+		technical skills. ORIENTATE allows the selection of features and the target
+		variable, then automatically generates a number of classification models and
+		cross-validates them, finding the best model and evaluating it. It also
+		implements a custom feature selection algorithm for systematic searches of
+		the best combination of predictors for a given target variable. Finally, it
+		outputs a comprehensive report with graphs that facilitates the explanation
+		of the classification model results, using global interpretation methods, and
+		an interface for the prediction of new input samples. Feature relevance and
+		interaction plots provided by ORIENTATE allow to use it for statistical
+		inference, which can replace and/or complement classical statistical studies.
+	},
 }
 
 @article{GALLEGOMADRID2023556,
-title = {The role of vehicular applications in the design of future 6G infrastructures},
-journal = {ICT Express},
-volume = {9},
-number = {4},
-pages = {556-570},
-year = {2023},
-issn = {2405-9595},
-doi = {https://doi.org/10.1016/j.icte.2023.03.011},
-url = {https://www.sciencedirect.com/science/article/pii/S2405959523000383},
-author = {Jorge Gallego-Madrid and Ramon Sanchez-Iborra and Jordi Ortiz and Jose Santa},
-keywords = {6G, Vehicular communications, V2X, Applications},
-abstract = {A great lack of 5G design is the traditional bottom-up development of network evolution, which has not effectively considered the requirements of applications and, particularly, vehicle to everything (V2X) applications. This paper provides a service-centric approach towards 6G V2X, with a concise overview of the upcoming hyper-connected vehicular ecosystem and its integration in the whole 6G fabric, analysing its particular infrastructure needs, as a way to reach key performance indicators (KPIs). We also present a 6G-oriented platform design able to manage the life-cycle of V2X applications across different domains by means of intelligent orchestration decisions.}
+	title        = {
+		The role of vehicular applications in the design of future 6G infrastructures
+	},
+	author       = {
+		Jorge Gallego-Madrid and Ramon Sanchez-Iborra and Jordi Ortiz and Jose Santa
+	},
+	year         = 2023,
+	journal      = {ICT Express},
+	volume       = 9,
+	number       = 4,
+	pages        = {556--570},
+	doi          = {https://doi.org/10.1016/j.icte.2023.03.011},
+	issn         = {2405-9595},
+	url          = {https://www.sciencedirect.com/science/article/pii/S2405959523000383},
+	keywords     = {6G, Vehicular communications, V2X, Applications},
+	abstract     = {
+		A great lack of 5G design is the traditional bottom-up development of network
+		evolution, which has not effectively considered the requirements of
+		applications and, particularly, vehicle to everything (V2X) applications.
+		This paper provides a service-centric approach towards 6G V2X, with a concise
+		overview of the upcoming hyper-connected vehicular ecosystem and its
+		integration in the whole 6G fabric, analysing its particular infrastructure
+		needs, as a way to reach key performance indicators (KPIs). We also present a
+		6G-oriented platform design able to manage the life-cycle of V2X applications
+		across different domains by means of intelligent orchestration decisions.
+	},
 }
 
 @article{Pavon-Marino:23,
-author = {Pablo Pavon-Marino and Nina Skorin-Kapov and Antonio Napoli},
-journal = {J. Opt. Commun. Netw.},
-keywords = {Coherence theory; Network topology; Optical networks; Optical transceivers; Passive optical networks; Wavelength division multiplexing},
-number = {7},
-pages = {C29--C40},
-publisher = {Optica Publishing Group},
-title = {Tree-determination, routing, and spectrum assignment using point-to-multipoint coherent optics},
-volume = {15},
-month = {Jul},
-year = {2023},
-url = {https://opg.optica.org/jocn/abstract.cfm?URI=jocn-15-7-C29},
-doi = {10.1364/JOCN.482457},
-abstract = {In this paper, we investigate a novel problem for dimensioning optical networks with digital subcarrier-based point-to-multipoint (P2MP) coherent transceivers, which we refer to as tree-determination, routing, and spectrum assignment (TRSA). Given a physical optical fiber network with P2MP transceivers and a target IP topology with associated capacity requirements, the TRSA problem involves partitioning capacity demands into logical hub--spoke trees and associated transceiver allocation, along with light-tree routing and spectrum assignment. We propose a heuristic algorithm to solve the TRSA problem with and without fault tolerance for arbitrary network topologies. The algorithms are used to evaluate potential cost benefits of P2MP transceivers for different IP densities and loads in a case study on a metro-network reference scenario. Results indicate that P2MP equipment can bring significant transceiver cost and equipment savings in comparison to point-to-point solutions, although such savings come at a trade-off with increased spectrum occupation.},
+	title        = {
+		Tree-determination, routing, and spectrum assignment using
+		point-to-multipoint coherent optics
+	},
+	author       = {Pablo Pavon-Marino and Nina Skorin-Kapov and Antonio Napoli},
+	year         = 2023,
+	month        = {Jul},
+	journal      = {J. Opt. Commun. Netw.},
+	publisher    = {Optica Publishing Group},
+	volume       = 15,
+	number       = 7,
+	pages        = {C29--C40},
+	doi          = {10.1364/JOCN.482457},
+	url          = {https://opg.optica.org/jocn/abstract.cfm?URI=jocn-15-7-C29},
+	keywords     = {
+		Coherence theory; Network topology; Optical networks; Optical transceivers;
+		Passive optical networks; Wavelength division multiplexing
+	},
+	abstract     = {
+		In this paper, we investigate a novel problem for dimensioning optical
+		networks with digital subcarrier-based point-to-multipoint (P2MP) coherent
+		transceivers, which we refer to as tree-determination, routing, and spectrum
+		assignment (TRSA). Given a physical optical fiber network with P2MP
+		transceivers and a target IP topology with associated capacity requirements,
+		the TRSA problem involves partitioning capacity demands into logical
+		hub--spoke trees and associated transceiver allocation, along with light-tree
+		routing and spectrum assignment. We propose a heuristic algorithm to solve
+		the TRSA problem with and without fault tolerance for arbitrary network
+		topologies. The algorithms are used to evaluate potential cost benefits of
+		P2MP transceivers for different IP densities and loads in a case study on a
+		metro-network reference scenario. Results indicate that P2MP equipment can
+		bring significant transceiver cost and equipment savings in comparison to
+		point-to-point solutions, although such savings come at a trade-off with
+		increased spectrum occupation.
+	},
 }
 
-@ARTICLE{9857790,
-  author={Rubio-Aparicio, Jesus and Santa, Jose},
-  journal={IEEE Communications Magazine}, 
-  title={An Embedded Crowdsensing Unit for Mobile Urban Pollution Monitoring}, 
-  year={2023},
-  volume={61},
-  number={1},
-  pages={90-96},
-  doi={10.1109/MCOM.001.2200161}}
+@article{9857790,
+	title        = {An Embedded Crowdsensing Unit for Mobile Urban Pollution Monitoring},
+	author       = {Rubio-Aparicio, Jesus and Santa, Jose},
+	year         = 2023,
+	journal      = {IEEE Communications Magazine},
+	volume       = 61,
+	number       = 1,
+	pages        = {90--96},
+	doi          = {10.1109/MCOM.001.2200161},
+}
 
 @inproceedings{Pavon-Marino:22,
-author = {Pablo Pavon-Marino and Nina Skorin-Kapov and Antonio Napoli},
-booktitle = {European Conference on Optical Communication (ECOC) 2022},
-journal = {European Conference on Optical Communication (ECOC) 2022},
-keywords = {Algorithms; Assignment algorithms; Coherence theory; Fiber networks; Numerical simulation; Optical networks},
-pages = {Tu1B.2},
-publisher = {Optica Publishing Group},
-title = {A Network Dimensioning Algorithm for Exploiting the Capabilities of Subcarrier-based Point-to-Multipoint Coherent Optics},
-year = {2022},
-url = {https://opg.optica.org/abstract.cfm?URI=ECEOC-2022-Tu1B.2},
-abstract = {We present the first generalized dimensioning algorithm for optical networks with subcarrier-based Point-to-Multipoint (P2MP) coherent transceivers, which covers hub-spoke determination, transceiver allocation, along with light-tree routing and spectrum assignment, in arbitrary topologies. The benefits of P2MP optics in a metro-network case study are evaluated.},
+	title        = {
+		A Network Dimensioning Algorithm for Exploiting the Capabilities of
+		Subcarrier-based Point-to-Multipoint Coherent Optics
+	},
+	author       = {Pablo Pavon-Marino and Nina Skorin-Kapov and Antonio Napoli},
+	year         = 2022,
+	journal      = {European Conference on Optical Communication (ECOC) 2022},
+	booktitle    = {European Conference on Optical Communication (ECOC) 2022},
+	publisher    = {Optica Publishing Group},
+	pages        = {Tu1B.2},
+	url          = {https://opg.optica.org/abstract.cfm?URI=ECEOC-2022-Tu1B.2},
+	keywords     = {
+		Algorithms; Assignment algorithms; Coherence theory; Fiber networks;
+		Numerical simulation; Optical networks
+	},
+	abstract     = {
+		We present the first generalized dimensioning algorithm for optical networks
+		with subcarrier-based Point-to-Multipoint (P2MP) coherent transceivers, which
+		covers hub-spoke determination, transceiver allocation, along with light-tree
+		routing and spectrum assignment, in arbitrary topologies. The benefits of
+		P2MP optics in a metro-network case study are evaluated.
+	},
 }
 
 @article{10.1371/journal.pone.0277975,
-    doi = {10.1371/journal.pone.0277975},
-    author = {Ukil, Arijit AND Marin, Leandro AND Jara, Antonio J.},
-    journal = {PLOS ONE},
-    publisher = {Public Library of Science},
-    title = {When less is more powerful: Shapley value attributed ablation with augmented learning for practical time series sensor data classification},
-    year = {2022},
-    month = {11},
-    volume = {17},
-    url = {https://doi.org/10.1371/journal.pone.0277975},
-    pages = {1-28},
-    abstract = {Time series sensor data classification tasks often suffer from training data scarcity issue due to the expenses associated with the expert-intervened annotation efforts. For example, Electrocardiogram (ECG) data classification for cardio-vascular disease (CVD) detection requires expensive labeling procedures with the help of cardiologists. Current state-of-the-art algorithms like deep learning models have shown outstanding performance under the general requirement of availability of large set of training examples. In this paper, we propose Shapley Attributed Ablation with Augmented Learning: ShapAAL, which demonstrates that deep learning algorithm with suitably selected subset of the seen examples or ablating the unimportant ones from the given limited training dataset can ensure consistently better classification performance under augmented training. In ShapAAL, additive perturbed training augments the input space to compensate the scarcity in training examples using Residual Network (ResNet) architecture through perturbation-induced inputs, while Shapley attribution seeks the subset from the augmented training space for better learnability with the goal of better general predictive performance, thanks to the “efficiency” and “null player” axioms of transferable utility games upon which Shapley value game is formulated. In ShapAAL, the subset of training examples that contribute positively to a supervised learning setup is derived from the notion of coalition games using Shapley values associated with each of the given inputs’ contribution into the model prediction. ShapAAL is a novel push-pull deep architecture where the subset selection through Shapley value attribution pushes the model to lower dimension while augmented training augments the learning capability of the model over unseen data. We perform ablation study to provide the empirical evidence of our claim and we show that proposed ShapAAL method consistently outperforms the current baselines and state-of-the-art algorithms for time series sensor data classification tasks from publicly available UCR time series archive that includes different practical important problems like detection of CVDs from ECG data.},
-    number = {11},
-
+	title        = {
+		When less is more powerful: Shapley value attributed ablation with augmented
+		learning for practical time series sensor data classification
+	},
+	author       = {Ukil, Arijit AND Marin, Leandro AND Jara, Antonio J.},
+	year         = 2022,
+	month        = 11,
+	journal      = {PLOS ONE},
+	publisher    = {Public Library of Science},
+	volume       = 17,
+	number       = 11,
+	pages        = {1--28},
+	doi          = {10.1371/journal.pone.0277975},
+	url          = {https://doi.org/10.1371/journal.pone.0277975},
+	abstract     = {
+		Time series sensor data classification tasks often suffer from training data
+		scarcity issue due to the expenses associated with the expert-intervened
+		annotation efforts. For example, Electrocardiogram (ECG) data classification
+		for cardio-vascular disease (CVD) detection requires expensive labeling
+		procedures with the help of cardiologists. Current state-of-the-art
+		algorithms like deep learning models have shown outstanding performance under
+		the general requirement of availability of large set of training examples. In
+		this paper, we propose Shapley Attributed Ablation with Augmented Learning:
+		ShapAAL, which demonstrates that deep learning algorithm with suitably
+		selected subset of the seen examples or ablating the unimportant ones from
+		the given limited training dataset can ensure consistently better
+		classification performance under augmented training. In ShapAAL, additive
+		perturbed training augments the input space to compensate the scarcity in
+		training examples using Residual Network (ResNet) architecture through
+		perturbation-induced inputs, while Shapley attribution seeks the subset from
+		the augmented training space for better learnability with the goal of better
+		general predictive performance, thanks to the ``efficiency'' and ``null
+		player'' axioms of transferable utility games upon which Shapley value game
+		is formulated. In ShapAAL, the subset of training examples that contribute
+		positively to a supervised learning setup is derived from the notion of
+		coalition games using Shapley values associated with each of the given
+		inputs' contribution into the model prediction. ShapAAL is a novel push-pull
+		deep architecture where the subset selection through Shapley value
+		attribution pushes the model to lower dimension while augmented training
+		augments the learning capability of the model over unseen data. We perform
+		ablation study to provide the empirical evidence of our claim and we show
+		that proposed ShapAAL method consistently outperforms the current baselines
+		and state-of-the-art algorithms for time series sensor data classification
+		tasks from publicly available UCR time series archive that includes different
+		practical important problems like detection of CVDs from ECG data.
+	},
 }
 
-@ARTICLE{9743469,
-  author={Ukil, Arijit and Marin, Leandro and Mukhopadhyay, Subhas Chandra and Jara, Antonio J.},
-  journal={IEEE Sensors Journal}, 
-  title={AFSense-ECG: Atrial Fibrillation Condition Sensing From Single Lead Electrocardiogram (ECG) Signals}, 
-  year={2022},
-  volume={22},
-  number={12},
-  pages={12269-12277},
-  doi={10.1109/JSEN.2022.3162691}}
-
-@Article{electronics11040536,
-AUTHOR = {Garrido, M. Carmen and Cadenas, José M. and Bueno-Crespo, Andrés and Martínez-España, Raquel and Giménez, José G. and Cecilia, José M.},
-TITLE = {Evaporation Forecasting through Interpretable Data Analysis Techniques},
-JOURNAL = {Electronics},
-VOLUME = {11},
-YEAR = {2022},
-NUMBER = {4},
-ARTICLE-NUMBER = {536},
-URL = {https://www.mdpi.com/2079-9292/11/4/536},
-ISSN = {2079-9292},
-ABSTRACT = {Climate change is increasing temperatures and causing periods of water scarcity in arid and semi-arid climates. The agricultural sector is one of the most affected by these changes, having to optimise scarce water resources. An important phenomenon within the water cycle is the evaporation from water reservoirs, which implies a considerable amount of water lost during warmer periods of the year. Indeed, evaporation rate forecasting can help farmers grow crops more sustainably by managing water resources more efficiently in the context of precision agriculture. In this work, we expose an interpretable machine learning approach, based on a multivariate decision tree, to forecast the evaporation rate on a daily basis using data from an Internet of Things (IoT) infrastructure, which is deployed on a real irrigated plot located in Murcia (southeastern Spain). The climate data collected feed the models that provide a forecast of evaporation and a summary of the parameters involved in this process. Finally, the results of the interpretable presented model are validated with the best literature models for evaporation rate prediction, i.e., Artificial Neural Networks, obtaining results very similar to those obtained for them, reaching up to 0.85R2 and 0.6MAE. Therefore, in this work, a double objective is faced: to maintain the performance obtained by the models most frequently used in the problem while maintaining the interpretability of the knowledge captured in it, which allows better understanding the problem and carrying out appropriate actions.},
-DOI = {10.3390/electronics11040536}
+@article{9743469,
+	title        = {
+		AFSense-ECG: Atrial Fibrillation Condition Sensing From Single Lead
+		Electrocardiogram (ECG) Signals
+	},
+	author       = {
+		Ukil, Arijit and Marin, Leandro and Mukhopadhyay, Subhas Chandra and Jara,
+		Antonio J.
+	},
+	year         = 2022,
+	journal      = {IEEE Sensors Journal},
+	volume       = 22,
+	number       = 12,
+	pages        = {12269--12277},
+	doi          = {10.1109/JSEN.2022.3162691},
 }
 
-@ARTICLE{9785886,
-  author={González-Vidal, Aurora and Mendoza-Bernal, José and Niu, Shuteng and Skarmeta, Antonio F. and Song, Houbing},
-  journal={IEEE Transactions on Industry Applications}, 
-  title={A Transfer Learning Framework for Predictive Energy-Related Scenarios in Smart Buildings}, 
-  year={2023},
-  volume={59},
-  number={1},
-  pages={26-37},
-  doi={10.1109/TIA.2022.3179222}}
-
-@ARTICLE{9609643,
-  author={Ruzafa-Alcázar, Pedro and Fernández-Saura, Pablo and Mármol-Campos, Enrique and González-Vidal, Aurora and Hernández-Ramos, José L. and Bernal-Bernabe, Jorge and Skarmeta, Antonio F.},
-  journal={IEEE Transactions on Industrial Informatics}, 
-  title={Intrusion Detection Based on Privacy-Preserving Federated Learning for the Industrial IoT}, 
-  year={2023},
-  volume={19},
-  number={2},
-  pages={1145-1154},
-  doi={10.1109/TII.2021.3126728}}
-
-@Inbook{Sanchez-Iborra2022,
-author="Sanchez-Iborra, Ramon
-and Skarmeta, Antonio",
-editor="Boulouard, Zakaria
-and Ouaissa, Mariya
-and Ouaissa, Mariyam
-and El Himer, Sarah",
-title="Securing the Hyperconnected Healthcare Ecosystem",
-bookTitle="AI and IoT for Sustainable Development in Emerging Countries: Challenges and Opportunities",
-year="2022",
-publisher="Springer International Publishing",
-address="Cham",
-pages="455--471",
-abstract="Digitalization across the healthcare industry is improving the quality and personalization of the services provided to patients. Currently, we are observing great advances in aspects such as doctor-patient coordination, real-time health monitoring, communication between different specialist, or administrative tasks automation, among others. However, this hyperconnectivity also brings important challenges related to the cyber-security of the critical eHealth infrastructures. Privacy concerns, intrusion detection, secure data exchange, etc. are crucial factors that should be addressed when designing digital healthcare platforms. In this chapter, a wide overview of the cyber-security landscape in the eHealth sector is presented, emphasizing the biggest challenges to be faced during the next years. Then, as the main contribution of this work, it is proposed a holistic cyber-security platform that tackles privacy and security risks in an automated fashion to foster the development of innovative applications within the healthcare ecosystem.",
-isbn="978-3-030-90618-4",
-doi="10.1007/978-3-030-90618-4_22",
-url="https://doi.org/10.1007/978-3-030-90618-4_22"
+@article{electronics11040536,
+	title        = {Evaporation Forecasting through Interpretable Data Analysis Techniques},
+	author       = {
+		Garrido, M. Carmen and Cadenas, Jos\'{e} M. and Bueno-Crespo, Andr\'{e}s and
+		Mart\'{\i}nez-Espa\~{n}a, Raquel and Gim\'{e}nez, Jos\'{e} G. and Cecilia,
+		Jos\'{e} M.
+	},
+	year         = 2022,
+	journal      = {Electronics},
+	volume       = 11,
+	number       = 4,
+	doi          = {10.3390/electronics11040536},
+	issn         = {2079-9292},
+	url          = {https://www.mdpi.com/2079-9292/11/4/536},
+	article-number = 536,
+	abstract     = {
+		Climate change is increasing temperatures and causing periods of water
+		scarcity in arid and semi-arid climates. The agricultural sector is one of
+		the most affected by these changes, having to optimise scarce water
+		resources. An important phenomenon within the water cycle is the evaporation
+		from water reservoirs, which implies a considerable amount of water lost
+		during warmer periods of the year. Indeed, evaporation rate forecasting can
+		help farmers grow crops more sustainably by managing water resources more
+		efficiently in the context of precision agriculture. In this work, we expose
+		an interpretable machine learning approach, based on a multivariate decision
+		tree, to forecast the evaporation rate on a daily basis using data from an
+		Internet of Things (IoT) infrastructure, which is deployed on a real
+		irrigated plot located in Murcia (southeastern Spain). The climate data
+		collected feed the models that provide a forecast of evaporation and a
+		summary of the parameters involved in this process. Finally, the results of
+		the interpretable presented model are validated with the best literature
+		models for evaporation rate prediction, i.e., Artificial Neural Networks,
+		obtaining results very similar to those obtained for them, reaching up to
+		0.85R2 and 0.6MAE. Therefore, in this work, a double objective is faced: to
+		maintain the performance obtained by the models most frequently used in the
+		problem while maintaining the interpretability of the knowledge captured in
+		it, which allows better understanding the problem and carrying out
+		appropriate actions.
+	},
 }
 
-
-@Article{en15093155,
-AUTHOR = {Popa, Angela and Ramallo González, Alfonso P. and Jaglan, Gaurav and Fensel, Anna},
-TITLE = {A Semantically Data-Driven Classification Framework for Energy Consumption in Buildings},
-JOURNAL = {Energies},
-VOLUME = {15},
-YEAR = {2022},
-NUMBER = {9},
-ARTICLE-NUMBER = {3155},
-URL = {https://www.mdpi.com/1996-1073/15/9/3155},
-ISSN = {1996-1073},
-ABSTRACT = {Encouraged by the European Union, all European countries need to enforce solutions to reduce non-renewable energy consumption in buildings. The reduction of energy (heating, domestic hot water, and appliances consumption) aims for the vision of near-zero energy consumption as a requirement goal for constructing buildings. In this paper, we review the available standards, tools and frameworks on the energy performance of buildings. Additionally, this work investigates if energy performance ratings can be obtained with energy consumption data from IoT devices and if the floor size and energy consumption values are enough to determine a dwellings&rsquo; energy performance rating. The essential outcome of this work is a data-driven prediction tool for energy performance labels that can run automatically. The tool is based on the cutting edge kNN classification algorithm and trained on open datasets with actual building data such as those coming from the IoT paradigm. Additionally, it assesses the results of the prediction by analysing its accuracy values. Furthermore, an approach to semantic annotations for energy performance certification data with currently available ontologies is presented. Use cases for an extension of this work are also discussed in the end.},
-DOI = {10.3390/en15093155}
+@article{9785886,
+	title        = {
+		A Transfer Learning Framework for Predictive Energy-Related Scenarios in
+		Smart Buildings
+	},
+	author       = {
+		Gonz\'{a}lez-Vidal, Aurora and Mendoza-Bernal, Jos\'{e} and Niu, Shuteng and
+		Skarmeta, Antonio F. and Song, Houbing
+	},
+	year         = 2023,
+	journal      = {IEEE Transactions on Industry Applications},
+	volume       = 59,
+	number       = 1,
+	pages        = {26--37},
+	doi          = {10.1109/TIA.2022.3179222},
 }
 
-@Article{math10142363,
-AUTHOR = {Ramallo-González, Alfonso P. and González-Vidal, Aurora and Terroso-Saenz, Fernando and Skarmeta-Gómez, Antonio F.},
-TITLE = {A Novel Learning Algorithm Based on Bayesian Statistics: Modelling Thermostat Adjustments for Heating and Cooling in Buildings},
-JOURNAL = {Mathematics},
-VOLUME = {10},
-YEAR = {2022},
-NUMBER = {14},
-ARTICLE-NUMBER = {2363},
-URL = {https://www.mdpi.com/2227-7390/10/14/2363},
-ISSN = {2227-7390},
-ABSTRACT = {The temperature of indoor spaces is at the core of highly relevant topics such as comfort, productivity and health. In conditioned spaces, this temperature is determined by thermostat preferences, but there is a lack of understanding of this phenomenon as a time-dependent magnitude. In addition to this, there is scientific evidence that the mental models of how users understand the operation of the billions of air-conditioning machines around the world are incorrect, which causes systems to &lsquo;compensate&rsquo; for temperatures outside by adjusting the thermostat, which leads to erratic changes on set-points over the day. This paper presents the first model of set-point temperature as a time-dependent variable. Additionally, a new mathematical algorithm was developed to complement these models and make possible their identification on the go, called the life Bayesian inference of transition matrices. Data from a total of 75 + 35 real thermostats in two buildings for more than a year were used to validate the model. The method was shown to be highly accurate, fast, and computationally trivial in terms of time and memory, representing a change in the paradigm for smart thermostats.},
-DOI = {10.3390/math10142363}
+@article{9609643,
+	title        = {
+		Intrusion Detection Based on Privacy-Preserving Federated Learning for the
+		Industrial IoT
+	},
+	author       = {
+		Ruzafa-Alc\'{a}zar, Pedro and Fern\'{a}ndez-Saura, Pablo and
+		M\'{a}rmol-Campos, Enrique and Gonz\'{a}lez-Vidal, Aurora and
+		Hern\'{a}ndez-Ramos, Jos\'{e} L. and Bernal-Bernabe, Jorge and Skarmeta,
+		Antonio F.
+	},
+	year         = 2023,
+	journal      = {IEEE Transactions on Industrial Informatics},
+	volume       = 19,
+	number       = 2,
+	pages        = {1145--1154},
+	doi          = {10.1109/TII.2021.3126728},
+}
+
+@inbook{Sanchez-Iborra2022,
+	title        = {Securing the Hyperconnected Healthcare Ecosystem},
+	author       = {Sanchez-Iborra, Ramon and Skarmeta, Antonio},
+	year         = 2022,
+	booktitle    = {
+		AI and IoT for Sustainable Development in Emerging Countries: Challenges and
+		Opportunities
+	},
+	publisher    = {Springer International Publishing},
+	address      = {Cham},
+	pages        = {455--471},
+	doi          = {10.1007/978-3-030-90618-4\_22},
+	isbn         = {978-3-030-90618-4},
+	url          = {https://doi.org/10.1007/978-3-030-90618-4\_22},
+	editor       = {
+		Boulouard, Zakaria and Ouaissa, Mariya and Ouaissa, Mariyam and El Himer,
+		Sarah
+	},
+	abstract     = {
+		Digitalization across the healthcare industry is improving the quality and
+		personalization of the services provided to patients. Currently, we are
+		observing great advances in aspects such as doctor-patient coordination,
+		real-time health monitoring, communication between different specialist, or
+		administrative tasks automation, among others. However, this
+		hyperconnectivity also brings important challenges related to the
+		cyber-security of the critical eHealth infrastructures. Privacy concerns,
+		intrusion detection, secure data exchange, etc. are crucial factors that
+		should be addressed when designing digital healthcare platforms. In this
+		chapter, a wide overview of the cyber-security landscape in the eHealth
+		sector is presented, emphasizing the biggest challenges to be faced during
+		the next years. Then, as the main contribution of this work, it is proposed a
+		holistic cyber-security platform that tackles privacy and security risks in
+		an automated fashion to foster the development of innovative applications
+		within the healthcare ecosystem.
+	},
+}
+
+@article{en15093155,
+	title        = {
+		A Semantically Data-Driven Classification Framework for Energy Consumption in
+		Buildings
+	},
+	author       = {
+		Popa, Angela and Ramallo Gonz\'{a}lez, Alfonso P. and Jaglan, Gaurav and
+		Fensel, Anna
+	},
+	year         = 2022,
+	journal      = {Energies},
+	volume       = 15,
+	number       = 9,
+	doi          = {10.3390/en15093155},
+	issn         = {1996-1073},
+	url          = {https://www.mdpi.com/1996-1073/15/9/3155},
+	article-number = 3155,
+	abstract     = {
+		Encouraged by the European Union, all European countries need to enforce
+		solutions to reduce non-renewable energy consumption in buildings. The
+		reduction of energy (heating, domestic hot water, and appliances consumption)
+		aims for the vision of near-zero energy consumption as a requirement goal for
+		constructing buildings. In this paper, we review the available standards,
+		tools and frameworks on the energy performance of buildings. Additionally,
+		this work investigates if energy performance ratings can be obtained with
+		energy consumption data from IoT devices and if the floor size and energy
+		consumption values are enough to determine a dwellings\&rsquo; energy
+		performance rating. The essential outcome of this work is a data-driven
+		prediction tool for energy performance labels that can run automatically. The
+		tool is based on the cutting edge kNN classification algorithm and trained on
+		open datasets with actual building data such as those coming from the IoT
+		paradigm. Additionally, it assesses the results of the prediction by
+		analysing its accuracy values. Furthermore, an approach to semantic
+		annotations for energy performance certification data with currently
+		available ontologies is presented. Use cases for an extension of this work
+		are also discussed in the end.
+	},
+}
+
+@article{math10142363,
+	title        = {
+		A Novel Learning Algorithm Based on Bayesian Statistics: Modelling Thermostat
+		Adjustments for Heating and Cooling in Buildings
+	},
+	author       = {
+		Ramallo-Gonz\'{a}lez, Alfonso P. and Gonz\'{a}lez-Vidal, Aurora and
+		Terroso-Saenz, Fernando and Skarmeta-G\'{o}mez, Antonio F.
+	},
+	year         = 2022,
+	journal      = {Mathematics},
+	volume       = 10,
+	number       = 14,
+	doi          = {10.3390/math10142363},
+	issn         = {2227-7390},
+	url          = {https://www.mdpi.com/2227-7390/10/14/2363},
+	article-number = 2363,
+	abstract     = {
+		The temperature of indoor spaces is at the core of highly relevant topics
+		such as comfort, productivity and health. In conditioned spaces, this
+		temperature is determined by thermostat preferences, but there is a lack of
+		understanding of this phenomenon as a time-dependent magnitude. In addition
+		to this, there is scientific evidence that the mental models of how users
+		understand the operation of the billions of air-conditioning machines around
+		the world are incorrect, which causes systems to \&lsquo;compensate\&rsquo;
+		for temperatures outside by adjusting the thermostat, which leads to erratic
+		changes on set-points over the day. This paper presents the first model of
+		set-point temperature as a time-dependent variable. Additionally, a new
+		mathematical algorithm was developed to complement these models and make
+		possible their identification on the go, called the life Bayesian inference
+		of transition matrices. Data from a total of 75 + 35 real thermostats in two
+		buildings for more than a year were used to validate the model. The method
+		was shown to be highly accurate, fast, and computationally trivial in terms
+		of time and memory, representing a change in the paradigm for smart
+		thermostats.
+	},
 }
 
 @article{RAMALLOGONZALEZ2022100907,
-title = {A novel method for eliminating the exponential growth of computing optimal demand response events for large-scale appliances re-scheduling},
-journal = {Sustainable Energy, Grids and Networks},
-volume = {32},
-pages = {100907},
-year = {2022},
-issn = {2352-4677},
-doi = {https://doi.org/10.1016/j.segan.2022.100907},
-url = {https://www.sciencedirect.com/science/article/pii/S2352467722001576},
-author = {Alfonso P. Ramallo-González and Tomas Alcañiz-Cascales and Valentina Tomat and Ana Fernández Guillamón and Ángel Molina and Antonio F. Skarmeta-Gómez},
-keywords = {Demand Response Events, Demand flexibility, Occupants},
-abstract = {The electric grid is undertaking a change of paradigm. New requirements such as the high power loads of Electric Vehicles’ charging are putting pressure on grids, and the popularisation of the figure of the prosumers, are creating new needs on the management of the system. Although the investment on infrastructure is one of the ways of alleviating the arrival of this new loads, the existence of smart controls, actuators and smart appliances opens also the door for demand modification. The so called Demand Response Events are strategies to reallocate the loads of the consumers, so the power demand is shifted towards times less critical for the grid. Some smart appliances can be considered as shiftable. The operation of them can be rescheduled to other times and still provide their services. On this paper we suggest an optimisation methodology consisting on a parallelisation method together with a generic algorithm that would allow an overlooking controller (such as aggregator or DSO) reduce the power peaks even with a large number of devices to control. The research here presented has looked for the smallest group size at which the optimisation is more effectible done in parallel groups rather than on a single large set. With this, we eliminated the exponential growth of the computational effort that the optimisation algorithm would need to do organising all devices in one go. The method achieves a computational time reduction of 80%, and it is only worsening the reduction of peak by 2.8% compared to an optimisation with a complete set.}
+	title        = {
+		A novel method for eliminating the exponential growth of computing optimal
+		demand response events for large-scale appliances re-scheduling
+	},
+	author       = {
+		Alfonso P. Ramallo-Gonz\'{a}lez and Tomas Alca\~{n}iz-Cascales and Valentina
+		Tomat and Ana Fern\'{a}ndez Guillam\'{o}n and \'{A}ngel Molina and Antonio F.
+		Skarmeta-G\'{o}mez
+	},
+	year         = 2022,
+	journal      = {Sustainable Energy, Grids and Networks},
+	volume       = 32,
+	pages        = 100907,
+	doi          = {https://doi.org/10.1016/j.segan.2022.100907},
+	issn         = {2352-4677},
+	url          = {https://www.sciencedirect.com/science/article/pii/S2352467722001576},
+	keywords     = {Demand Response Events, Demand flexibility, Occupants},
+	abstract     = {
+		The electric grid is undertaking a change of paradigm. New requirements such
+		as the high power loads of Electric Vehicles' charging are putting pressure
+		on grids, and the popularisation of the figure of the prosumers, are creating
+		new needs on the management of the system. Although the investment on
+		infrastructure is one of the ways of alleviating the arrival of this new
+		loads, the existence of smart controls, actuators and smart appliances opens
+		also the door for demand modification. The so called Demand Response Events
+		are strategies to reallocate the loads of the consumers, so the power demand
+		is shifted towards times less critical for the grid. Some smart appliances
+		can be considered as shiftable. The operation of them can be rescheduled to
+		other times and still provide their services. On this paper we suggest an
+		optimisation methodology consisting on a parallelisation method together with
+		a generic algorithm that would allow an overlooking controller (such as
+		aggregator or DSO) reduce the power peaks even with a large number of devices
+		to control. The research here presented has looked for the smallest group
+		size at which the optimisation is more effectible done in parallel groups
+		rather than on a single large set. With this, we eliminated the exponential
+		growth of the computational effort that the optimisation algorithm would need
+		to do organising all devices in one go. The method achieves a computational
+		time reduction of 80\%, and it is only worsening the reduction of peak by
+		2.8\% compared to an optimisation with a complete set.
+	},
 }
 
-@ARTICLE{9913206,
-  author={Coronado, Estefanía and Behravesh, Rasoul and Subramanya, Tejas and Fernàndez-Fernàndez, Adriana and Siddiqui, Muhammad Shuaib and Costa-Pérez, Xavier and Riggio, Roberto},
-  journal={IEEE Communications Surveys & Tutorials}, 
-  title={Zero Touch Management: A Survey of Network Automation Solutions for 5G and 6G Networks}, 
-  year={2022},
-  volume={24},
-  number={4},
-  pages={2535-2578},
-  doi={10.1109/COMST.2022.3212586}}
-
-@Article{s22249643,
-AUTHOR = {Mallik, Mohammed and Tesfay, Angesom Ataklity and Allaert, Benjamin and Kassi, Redha and Egea-Lopez, Esteban and Molina-Garcia-Pardo, Jose-Maria and Wiart, Joe and Gaillot, Davy P. and Clavier, Laurent},
-TITLE = {Towards Outdoor Electromagnetic Field Exposure Mapping Generation Using Conditional GANs},
-JOURNAL = {Sensors},
-VOLUME = {22},
-YEAR = {2022},
-NUMBER = {24},
-ARTICLE-NUMBER = {9643},
-URL = {https://www.mdpi.com/1424-8220/22/24/9643},
-PubMedID = {36560011},
-ISSN = {1424-8220},
-ABSTRACT = {With the ongoing fifth-generation cellular network (5G) deployment, electromagnetic field exposure has become a critical concern. However, measurements are scarce, and accurate electromagnetic field reconstruction in a geographic region remains challenging. This work proposes a conditional generative adversarial network to address this issue. The main objective is to reconstruct the electromagnetic field exposure map accurately according to the environment&rsquo;s topology from a few sensors located in an outdoor urban environment. The model is trained to learn and estimate the propagation characteristics of the electromagnetic field according to the topology of a given environment. In addition, the conditional generative adversarial network-based electromagnetic field mapping is compared with simple kriging. Results show that the proposed method produces accurate estimates and is a promising solution for exposure map reconstruction.},
-DOI = {10.3390/s22249643}
+@article{9913206,
+	title        = {
+		Zero Touch Management: A Survey of Network Automation Solutions for 5G and 6G
+		Networks
+	},
+	author       = {
+		Coronado, Estefan\'{\i}a and Behravesh, Rasoul and Subramanya, Tejas and
+		Fern\`{a}ndez-Fern\`{a}ndez, Adriana and Siddiqui, Muhammad Shuaib and
+		Costa-P\'{e}rez, Xavier and Riggio, Roberto
+	},
+	year         = 2022,
+	journal      = {IEEE Communications Surveys \& Tutorials},
+	volume       = 24,
+	number       = 4,
+	pages        = {2535--2578},
+	doi          = {10.1109/COMST.2022.3212586},
 }
 
-@ARTICLE{9905744,
-  author={Egea-Lopez, Esteban and Pavon-Mariño, Pablo and Santa, Jose},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={Optimal Joint Power and Rate Adaptation for Awareness and Congestion Control in Vehicular Networks}, 
-  year={2022},
-  volume={23},
-  number={12},
-  pages={25033-25046},
-  doi={10.1109/TITS.2022.3209094}}
+@article{s22249643,
+	title        = {
+		Towards Outdoor Electromagnetic Field Exposure Mapping Generation Using
+		Conditional GANs
+	},
+	author       = {
+		Mallik, Mohammed and Tesfay, Angesom Ataklity and Allaert, Benjamin and
+		Kassi, Redha and Egea-Lopez, Esteban and Molina-Garcia-Pardo, Jose-Maria and
+		Wiart, Joe and Gaillot, Davy P. and Clavier, Laurent
+	},
+	year         = 2022,
+	journal      = {Sensors},
+	volume       = 22,
+	number       = 24,
+	doi          = {10.3390/s22249643},
+	issn         = {1424-8220},
+	url          = {https://www.mdpi.com/1424-8220/22/24/9643},
+	article-number = 9643,
+	pubmedid     = 36560011,
+	abstract     = {
+		With the ongoing fifth-generation cellular network (5G) deployment,
+		electromagnetic field exposure has become a critical concern. However,
+		measurements are scarce, and accurate electromagnetic field reconstruction in
+		a geographic region remains challenging. This work proposes a conditional
+		generative adversarial network to address this issue. The main objective is
+		to reconstruct the electromagnetic field exposure map accurately according to
+		the environment\&rsquo;s topology from a few sensors located in an outdoor
+		urban environment. The model is trained to learn and estimate the propagation
+		characteristics of the electromagnetic field according to the topology of a
+		given environment. In addition, the conditional generative adversarial
+		network-based electromagnetic field mapping is compared with simple kriging.
+		Results show that the proposed method produces accurate estimates and is a
+		promising solution for exposure map reconstruction.
+	},
+}
 
+@article{9905744,
+	title        = {
+		Optimal Joint Power and Rate Adaptation for Awareness and Congestion Control
+		in Vehicular Networks
+	},
+	author       = {Egea-Lopez, Esteban and Pavon-Mari\~{n}o, Pablo and Santa, Jose},
+	year         = 2022,
+	journal      = {IEEE Transactions on Intelligent Transportation Systems},
+	volume       = 23,
+	number       = 12,
+	pages        = {25033--25046},
+	doi          = {10.1109/TITS.2022.3209094},
+}
 
 @article{SANTA2022100537,
-title = {Evaluation platform for 5G vehicular communications},
-journal = {Vehicular Communications},
-volume = {38},
-pages = {100537},
-year = {2022},
-issn = {2214-2096},
-doi = {https://doi.org/10.1016/j.vehcom.2022.100537},
-url = {https://www.sciencedirect.com/science/article/pii/S2214209622000845},
-author = {Jose Santa and Konstantinos V. Katsaros and Luis Bernal-Escobedo and Sadeq Zougari and Marta Miranda and Oscar Castañeda and Benoit Dalet and Angelos Amditis},
-keywords = {Vehicular communications, 5G, Experimental evaluation, 5G-NR, KPI, Framework},
-abstract = {Cellular vehicle to everything (C-V2X) communications is presented as the cornerstone for next-generation connected vehicles. C-V2X can support efficient vehicle to vehicle and vehicle to infrastructure data transmission, and is said to be a key enabler of cooperative connected and automated mobility (CCAM). Performance of 5G New Radio (5G-NR) is expected to address bandwidth and delay requirements of services for autonomous vehicles. This is the theory and what particular research works have showed through simulation or limited prototypes. On the contrary, this work focuses on evaluating real 5G deployments (including 5G-NR) of network operators in CCAM scenarios, with particular emphasis on cross-border settings and service continuity under inter-operator handovers. The paper presents an evaluation platform to gather cross-layer measurements, homogenise results, perform comparative assessment of figures of merit, and calculate network and CCAM key performance indicators (KPIs). The platform is evaluated through implementing a use case for autonomous overtaking, involving two 5G-NR operator deployments at the Spanish-Portuguese border. Results reveal good network performances and correct operation of the service, thanks to 5G-NR and edge servers, although significant impact of handovers is detected on network and overtaking KPIs.}
+	title        = {Evaluation platform for 5G vehicular communications},
+	author       = {
+		Jose Santa and Konstantinos V. Katsaros and Luis Bernal-Escobedo and Sadeq
+		Zougari and Marta Miranda and Oscar Casta\~{n}eda and Benoit Dalet and
+		Angelos Amditis
+	},
+	year         = 2022,
+	journal      = {Vehicular Communications},
+	volume       = 38,
+	pages        = 100537,
+	doi          = {https://doi.org/10.1016/j.vehcom.2022.100537},
+	issn         = {2214-2096},
+	url          = {https://www.sciencedirect.com/science/article/pii/S2214209622000845},
+	keywords     = {
+		Vehicular communications, 5G, Experimental evaluation, 5G-NR, KPI, Framework
+	},
+	abstract     = {
+		Cellular vehicle to everything (C-V2X) communications is presented as the
+		cornerstone for next-generation connected vehicles. C-V2X can support
+		efficient vehicle to vehicle and vehicle to infrastructure data transmission,
+		and is said to be a key enabler of cooperative connected and automated
+		mobility (CCAM). Performance of 5G New Radio (5G-NR) is expected to address
+		bandwidth and delay requirements of services for autonomous vehicles. This is
+		the theory and what particular research works have showed through simulation
+		or limited prototypes. On the contrary, this work focuses on evaluating real
+		5G deployments (including 5G-NR) of network operators in CCAM scenarios, with
+		particular emphasis on cross-border settings and service continuity under
+		inter-operator handovers. The paper presents an evaluation platform to gather
+		cross-layer measurements, homogenise results, perform comparative assessment
+		of figures of merit, and calculate network and CCAM key performance
+		indicators (KPIs). The platform is evaluated through implementing a use case
+		for autonomous overtaking, involving two 5G-NR operator deployments at the
+		Spanish-Portuguese border. Results reveal good network performances and
+		correct operation of the service, thanks to 5G-NR and edge servers, although
+		significant impact of handovers is detected on network and overtaking KPIs.
+	},
 }
 
 @article{SANTOS2022108750,
-title = {Towards the optimal orchestration of steerable mmWave backhaul reconfiguration},
-journal = {Computer Networks},
-volume = {205},
-pages = {108750},
-year = {2022},
-issn = {1389-1286},
-doi = {https://doi.org/10.1016/j.comnet.2021.108750},
-url = {https://www.sciencedirect.com/science/article/pii/S1389128621005958},
-author = {Ricardo Santos and Nina Skorin-Kapov and Hakim Ghazzai and Andreas Kassler and Gia Khanh Tran},
-keywords = {Wireless backhaul, mmWave, Reconfiguration, Optimization, MILP model},
-abstract = {Future generations of mobile networks will require increased backhaul capacity to connect a massive amount of small cells (SCs) to the network. Since having an optical connection to each SC might be infeasible, mmWave links are an interesting alternative due to their large available bandwidth. An advantage of a wireless backhaul is that the topology can be reconfigured to adapt to changing traffic demands, new operator policies, or to rapidly overcome network failures. In this work, we investigate the problem of orchestrating the reconfiguration of mmWave wireless backhaul networks with mechanically steerable antennas assuming green backhaul operation where nodes are turned off when not in use. The orchestration involves scheduling and coordinating the powering on/off of nodes, the rotation of antennas to achieve alignment for link establishment, and setting up and tearing down links to minimize packet loss during the reconfiguration. We model the problem as a Mixed Integer Linear Program (MILP) for optimal orchestration and propose a sub-optimal reduced MILP for larger instances. Numerical results for different topologies using a realistic traffic trace indicate that optimizing reconfiguration orchestration can significantly reduce packet loss in comparison to a straightforward reconfiguration approach, enabling a smooth transition between target mmWave backhaul topologies.}
+	title        = {
+		Towards the optimal orchestration of steerable mmWave backhaul
+		reconfiguration
+	},
+	author       = {
+		Ricardo Santos and Nina Skorin-Kapov and Hakim Ghazzai and Andreas Kassler
+		and Gia Khanh Tran
+	},
+	year         = 2022,
+	journal      = {Computer Networks},
+	volume       = 205,
+	pages        = 108750,
+	doi          = {https://doi.org/10.1016/j.comnet.2021.108750},
+	issn         = {1389-1286},
+	url          = {https://www.sciencedirect.com/science/article/pii/S1389128621005958},
+	keywords     = {Wireless backhaul, mmWave, Reconfiguration, Optimization, MILP model},
+	abstract     = {
+		Future generations of mobile networks will require increased backhaul
+		capacity to connect a massive amount of small cells (SCs) to the network.
+		Since having an optical connection to each SC might be infeasible, mmWave
+		links are an interesting alternative due to their large available bandwidth.
+		An advantage of a wireless backhaul is that the topology can be reconfigured
+		to adapt to changing traffic demands, new operator policies, or to rapidly
+		overcome network failures. In this work, we investigate the problem of
+		orchestrating the reconfiguration of mmWave wireless backhaul networks with
+		mechanically steerable antennas assuming green backhaul operation where nodes
+		are turned off when not in use. The orchestration involves scheduling and
+		coordinating the powering on/off of nodes, the rotation of antennas to
+		achieve alignment for link establishment, and setting up and tearing down
+		links to minimize packet loss during the reconfiguration. We model the
+		problem as a Mixed Integer Linear Program (MILP) for optimal orchestration
+		and propose a sub-optimal reduced MILP for larger instances. Numerical
+		results for different topologies using a realistic traffic trace indicate
+		that optimizing reconfiguration orchestration can significantly reduce packet
+		loss in comparison to a straightforward reconfiguration approach, enabling a
+		smooth transition between target mmWave backhaul topologies.
+	},
 }
 
-@INPROCEEDINGS{9825451,
-  author={Egea-Lopez, Esteban and Molina-Garcia-Pardo, Jose-Maria and Lienard, Martine and Degauque, Pierre},
-  booktitle={2022 International Wireless Communications and Mobile Computing (IWCMC)}, 
-  title={Deterministic Polarimetric Propagation Analysis in Road Tunnels}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={743-747},
-  doi={10.1109/IWCMC55113.2022.9825451}}
+@inproceedings{9825451,
+	title        = {Deterministic Polarimetric Propagation Analysis in Road Tunnels},
+	author       = {
+		Egea-Lopez, Esteban and Molina-Garcia-Pardo, Jose-Maria and Lienard, Martine
+		and Degauque, Pierre
+	},
+	year         = 2022,
+	booktitle    = {2022 International Wireless Communications and Mobile Computing (IWCMC)},
+	volume       = {},
+	number       = {},
+	pages        = {743--747},
+	doi          = {10.1109/IWCMC55113.2022.9825451},
+}
 
 @article{Pavon-Marino:22,
-author = {P. Pavon-Marino and N. Skorin-Kapov and M. V. Bueno-Delgado and J. B\"{a}ck and A. Napoli},
-journal = {J. Opt. Commun. Netw.},
-keywords = {Coherence theory; Optical networks; Optical transceivers; Passive optical networks; Ring networks; Signal processing},
-number = {5},
-pages = {B30--B44},
-publisher = {Optica Publishing Group},
-title = {On the benefits of point-to-multipoint coherent optics for multilayer capacity planning in ring networks with varying traffic profiles},
-volume = {14},
-month = {May},
-year = {2022},
-url = {https://opg.optica.org/jocn/abstract.cfm?URI=jocn-14-5-B30},
-doi = {10.1364/JOCN.448123},
-abstract = {Point-to-multipoint (P2MP) coherent optics using digital subcarrier multiplexing have recently been proposed as a promising new technology to reduce the cost and complexity of optical transport networks, particularly those in metro aggregation scenarios with hub-and-spoke (H\&S) traffic patterns. In this paper, we perform a case study on fault tolerant ring networks with more general traffic profiles to assess the benefits of P2MP optics for alternative network scenarios such as those appearing in metro rings. We propose mixed integer linear programming formulations for multilayer capacity planning to minimize total transceiver costs, considering both point-to-point and P2MP transceivers, as well as a heuristic approach for the more complex P2MP case. Results indicate that P2MP optics can bring several advantages for all tested traffic profiles, ranging from pure uniform flows to mostly H\&S. Transceiver cost savings are achieved in various cases, greater at higher network loads and for traffic patterns that are mostly H\&S. Results also show that P2MP optics prompt a multilayer redesign of the network with significantly reduced spectrum usage and a reduced number of IP hops, resulting in lower optical--electronic--optical and IP processing latency and lower IP layer equipment costs for all traffic profiles.},
+	title        = {
+		On the benefits of point-to-multipoint coherent optics for multilayer
+		capacity planning in ring networks with varying traffic profiles
+	},
+	author       = {
+		P. Pavon-Marino and N. Skorin-Kapov and M. V. Bueno-Delgado and J. B\"{a}ck
+		and A. Napoli
+	},
+	year         = 2022,
+	month        = {May},
+	journal      = {J. Opt. Commun. Netw.},
+	publisher    = {Optica Publishing Group},
+	volume       = 14,
+	number       = 5,
+	pages        = {B30--B44},
+	doi          = {10.1364/JOCN.448123},
+	url          = {https://opg.optica.org/jocn/abstract.cfm?URI=jocn-14-5-B30},
+	keywords     = {
+		Coherence theory; Optical networks; Optical transceivers; Passive optical
+		networks; Ring networks; Signal processing
+	},
+	abstract     = {
+		Point-to-multipoint (P2MP) coherent optics using digital subcarrier
+		multiplexing have recently been proposed as a promising new technology to
+		reduce the cost and complexity of optical transport networks, particularly
+		those in metro aggregation scenarios with hub-and-spoke (H\&S) traffic
+		patterns. In this paper, we perform a case study on fault tolerant ring
+		networks with more general traffic profiles to assess the benefits of P2MP
+		optics for alternative network scenarios such as those appearing in metro
+		rings. We propose mixed integer linear programming formulations for
+		multilayer capacity planning to minimize total transceiver costs, considering
+		both point-to-point and P2MP transceivers, as well as a heuristic approach
+		for the more complex P2MP case. Results indicate that P2MP optics can bring
+		several advantages for all tested traffic profiles, ranging from pure uniform
+		flows to mostly H\&S. Transceiver cost savings are achieved in various cases,
+		greater at higher network loads and for traffic patterns that are mostly
+		H\&S. Results also show that P2MP optics prompt a multilayer redesign of the
+		network with significantly reduced spectrum usage and a reduced number of IP
+		hops, resulting in lower optical--electronic--optical and IP processing
+		latency and lower IP layer equipment costs for all traffic profiles.
+	},
 }
 
 @article{Aznar-Poveda2022,
-author = {Aznar-Poveda, J. and García-Sánchez, A.-J. and Egea-López, E. and García-Haro, J.},
-journal = {J. Opt. Commun. Netw.},
-keywords = {Coherence theory; Optical networks; Optical transceivers; Passive optical networks; Ring networks; Signal processing},
-number = {},
-publisher = {Scientific Reports},
-title = {Approximate reinforcement learning to control beaconing congestion in distributed networks},
-volume = {},
-month = {Jan},
-year = {2022},
-url = {https://doi.org/10.1038/s41598-021-04123-9},
-doi = {10.1038/s41598-021-04123-9},
-abstract = {In vehicular communications, the increase of the channel load caused by excessive periodical messages (beacons) is an important aspect which must be controlled to ensure the appropriate operation of safety applications and driver-assistance systems. To date, the majority of congestion control solutions involve including additional information in the payload of the messages transmitted, which may jeopardize the appropriate operation of these control solutions when channel conditions are unfavorable, provoking packet losses. This study exploits the advantages of non-cooperative, distributed beaconing allocation, in which vehicles operate independently without requiring any costly road infrastructure. In particular, we formulate the beaconing rate control problem as a Markov Decision Process and solve it using approximate reinforcement learning to carry out optimal actions. Results obtained were compared with other traditional solutions, revealing that our approach, called SSFA, is able to keep a certain fraction of the channel capacity available, which guarantees the delivery of emergency-related notifications with faster convergence than other proposals. Moreover, good performance was obtained in terms of packet delivery and collision ratios.},
+	title        = {
+		Approximate reinforcement learning to control beaconing congestion in
+		distributed networks
+	},
+	author       = {
+		Aznar-Poveda, J. and Garc\'{\i}a-S\'{a}nchez, A.-J. and Egea-L\'{o}pez, E.
+		and Garc\'{\i}a-Haro, J.
+	},
+	year         = 2022,
+	month        = {Jan},
+	journal      = {J. Opt. Commun. Netw.},
+	publisher    = {Scientific Reports},
+	volume       = {},
+	number       = {},
+	doi          = {10.1038/s41598-021-04123-9},
+	url          = {https://doi.org/10.1038/s41598-021-04123-9},
+	keywords     = {
+		Coherence theory; Optical networks; Optical transceivers; Passive optical
+		networks; Ring networks; Signal processing
+	},
+	abstract     = {
+		In vehicular communications, the increase of the channel load caused by
+		excessive periodical messages (beacons) is an important aspect which must be
+		controlled to ensure the appropriate operation of safety applications and
+		driver-assistance systems. To date, the majority of congestion control
+		solutions involve including additional information in the payload of the
+		messages transmitted, which may jeopardize the appropriate operation of these
+		control solutions when channel conditions are unfavorable, provoking packet
+		losses. This study exploits the advantages of non-cooperative, distributed
+		beaconing allocation, in which vehicles operate independently without
+		requiring any costly road infrastructure. In particular, we formulate the
+		beaconing rate control problem as a Markov Decision Process and solve it
+		using approximate reinforcement learning to carry out optimal actions.
+		Results obtained were compared with other traditional solutions, revealing
+		that our approach, called SSFA, is able to keep a certain fraction of the
+		channel capacity available, which guarantees the delivery of
+		emergency-related notifications with faster convergence than other proposals.
+		Moreover, good performance was obtained in terms of packet delivery and
+		collision ratios.
+	},
 }
 
 @article{GALLEGOMADRID2022105,
-title = {Machine learning-based zero-touch network and service management: a survey},
-journal = {Digital Communications and Networks},
-volume = {8},
-number = {2},
-pages = {105-123},
-year = {2022},
-issn = {2352-8648},
-doi = {https://doi.org/10.1016/j.dcan.2021.09.001},
-url = {https://www.sciencedirect.com/science/article/pii/S2352864821000614},
-author = {Jorge Gallego-Madrid and Ramon Sanchez-Iborra and Pedro M. Ruiz and Antonio F. Skarmeta},
-keywords = {Zero-touch network and service management (ZSM), Next generation networks (NGN), Artificial intelligence (AI), Machine learning (ML)},
-abstract = {The exponential growth of mobile applications and services during the last years has challenged the existing network infrastructures. Consequently, the arrival of multiple management solutions to cope with this explosion along the end-to-end network chain has increased the complexity in the coordinated orchestration of different segments composing the whole infrastructure. The Zero-touch Network and Service Management (ZSM) concept has recently emerged to automatically orchestrate and manage network resources while assuring the Quality of Experience (QoE) demanded by users. Machine Learning (ML) is one of the key enabling technologies that many ZSM frameworks are adopting to bring intelligent decision making to the network management system. This paper presents a comprehensive survey of the state-of-the-art application of ML-based techniques to improve ZSM performance. To this end, the main related standardization activities and the aligned international projects and research efforts are deeply examined. From this dissection, the skyrocketing growth of the ZSM paradigm can be observed. Concretely, different standardization bodies have already designed reference architectures to set the foundations of novel automatic network management functions and resource orchestration. Aligned with these advances, diverse ML techniques are being currently exploited to build further ZSM developments in different aspects, including multi-tenancy management, traffic monitoring, and architecture coordination, among others. However, different challenges, such as the complexity, scalability, and security of ML mechanisms, are also identified, and future research guidelines are provided to accomplish a firm development of the ZSM ecosystem.}
+	title        = {Machine learning-based zero-touch network and service management: a survey},
+	author       = {
+		Jorge Gallego-Madrid and Ramon Sanchez-Iborra and Pedro M. Ruiz and Antonio
+		F. Skarmeta
+	},
+	year         = 2022,
+	journal      = {Digital Communications and Networks},
+	volume       = 8,
+	number       = 2,
+	pages        = {105--123},
+	doi          = {https://doi.org/10.1016/j.dcan.2021.09.001},
+	issn         = {2352-8648},
+	url          = {https://www.sciencedirect.com/science/article/pii/S2352864821000614},
+	keywords     = {
+		Zero-touch network and service management (ZSM), Next generation networks
+		(NGN), Artificial intelligence (AI), Machine learning (ML)
+	},
+	abstract     = {
+		The exponential growth of mobile applications and services during the last
+		years has challenged the existing network infrastructures. Consequently, the
+		arrival of multiple management solutions to cope with this explosion along
+		the end-to-end network chain has increased the complexity in the coordinated
+		orchestration of different segments composing the whole infrastructure. The
+		Zero-touch Network and Service Management (ZSM) concept has recently emerged
+		to automatically orchestrate and manage network resources while assuring the
+		Quality of Experience (QoE) demanded by users. Machine Learning (ML) is one
+		of the key enabling technologies that many ZSM frameworks are adopting to
+		bring intelligent decision making to the network management system. This
+		paper presents a comprehensive survey of the state-of-the-art application of
+		ML-based techniques to improve ZSM performance. To this end, the main related
+		standardization activities and the aligned international projects and
+		research efforts are deeply examined. From this dissection, the skyrocketing
+		growth of the ZSM paradigm can be observed. Concretely, different
+		standardization bodies have already designed reference architectures to set
+		the foundations of novel automatic network management functions and resource
+		orchestration. Aligned with these advances, diverse ML techniques are being
+		currently exploited to build further ZSM developments in different aspects,
+		including multi-tenancy management, traffic monitoring, and architecture
+		coordination, among others. However, different challenges, such as the
+		complexity, scalability, and security of ML mechanisms, are also identified,
+		and future research guidelines are provided to accomplish a firm development
+		of the ZSM ecosystem.
+	},
 }
 
 @article{SANCHEZGOMEZ2023270,
-title = {MEC-based architecture for interoperable and trustworthy internet of moving things},
-journal = {Digital Communications and Networks},
-volume = {9},
-number = {1},
-pages = {270-279},
-year = {2023},
-issn = {2352-8648},
-doi = {https://doi.org/10.1016/j.dcan.2022.03.028},
-url = {https://www.sciencedirect.com/science/article/pii/S2352864822000499},
-author = {Jesus Sanchez-Gomez and Rafael Marin-Perez and Ramon Sanchez-Iborra and Miguel Angel Zamora},
-keywords = {Internet of moving things, LPWAN, Authentication, LO-CoAP-EAP, SCHC},
-abstract = {The expansion of the Internet of Moving Things (IoMT) leads to limitless and continuous working playgrounds exploited by highly dynamic end devices. This requires the adoption of multi-Radio Access Technologies (RATs)-based strategies to provide IoMT units with ubiquitous connectivity. To this end, the development of secure bootstrapping and authentication mechanisms is necessary to permit the secure operation of end devices. Given the transmission and power limitations of these elements, current cryptographic solutions do not address these stringent requirements. For that reason, in the study we present a Multi-Access Edge Computing (MEC)-based end-to-end architecture that enables an efficient and secure authentication and key agreement between end devices and network servers over heterogeneous resource-limited networks such as the Low Power Wide Area Networks (LPWANs). Our proposal is based on the Authentication, Authorization, and Accounting (AAA) architecture and the recent Internet Engineering Task Force initiatives Static Context Header Compression and Low-Overhead CoAP-EAP. The results obtained from experimental tests reveal the validity of the proposal as it enables constrained IoMT devices to gain IPv6 connectivity as well as performs end-to-end secure authentication with notable reliability and controlled latency.}
+	title        = {
+		MEC-based architecture for interoperable and trustworthy internet of moving
+		things
+	},
+	author       = {
+		Jesus Sanchez-Gomez and Rafael Marin-Perez and Ramon Sanchez-Iborra and
+		Miguel Angel Zamora
+	},
+	year         = 2023,
+	journal      = {Digital Communications and Networks},
+	volume       = 9,
+	number       = 1,
+	pages        = {270--279},
+	doi          = {https://doi.org/10.1016/j.dcan.2022.03.028},
+	issn         = {2352-8648},
+	url          = {https://www.sciencedirect.com/science/article/pii/S2352864822000499},
+	keywords     = {Internet of moving things, LPWAN, Authentication, LO-CoAP-EAP, SCHC},
+	abstract     = {
+		The expansion of the Internet of Moving Things (IoMT) leads to limitless and
+		continuous working playgrounds exploited by highly dynamic end devices. This
+		requires the adoption of multi-Radio Access Technologies (RATs)-based
+		strategies to provide IoMT units with ubiquitous connectivity. To this end,
+		the development of secure bootstrapping and authentication mechanisms is
+		necessary to permit the secure operation of end devices. Given the
+		transmission and power limitations of these elements, current cryptographic
+		solutions do not address these stringent requirements. For that reason, in
+		the study we present a Multi-Access Edge Computing (MEC)-based end-to-end
+		architecture that enables an efficient and secure authentication and key
+		agreement between end devices and network servers over heterogeneous
+		resource-limited networks such as the Low Power Wide Area Networks (LPWANs).
+		Our proposal is based on the Authentication, Authorization, and Accounting
+		(AAA) architecture and the recent Internet Engineering Task Force initiatives
+		Static Context Header Compression and Low-Overhead CoAP-EAP. The results
+		obtained from experimental tests reveal the validity of the proposal as it
+		enables constrained IoMT devices to gain IPv6 connectivity as well as
+		performs end-to-end secure authentication with notable reliability and
+		controlled latency.
+	},
 }
 
 @article{https://doi.org/10.1049/cdt2.12035,
-author = {Sanchez-Iborra, Ramon and Skarmeta, Antonio},
-title = {Who is wearing me? TinyDL-based user recognition in constrained personal devices},
-journal = {IET Computers \& Digital Techniques},
-volume = {16},
-number = {1},
-pages = {1-9},
-keywords = {deep learning, IoT, TinyDL, wearables},
-doi = {https://doi.org/10.1049/cdt2.12035},
-url = {https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/cdt2.12035},
-eprint = {https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cdt2.12035},
-abstract = {Abstract Deep learning (DL) techniques have been extensively studied to improve their precision and scalability in a vast range of applications. Recently, a new milestone has been reached driven by the emergence of the TinyDL paradigm, which enables adaptation of complex DL models generated by well-known libraries to the restrictions of constrained microcontroller-based devices. In this work, a comprehensive discussion is provided regarding this novel ecosystem, by identifying the benefits that it will bring to the wearable industry and analysing different TinyDL initiatives promoted by tech giants. The specific use case of automatic user recognition from data captured by a wearable device is also presented. The whole development process by which different DL configurations have been embedded in a real microcontroller unit is described. The attained results in terms of accuracy and resource usage confirm the validity of the proposal, which allows precise predictions in a highly constrained platform with limited input information. Therefore, this work provides insights into the viability of the integration of TinyDL models within wearables, which may be valuable for researchers, practitioners, and makers related to this industry.},
-year = {2022}
+	title        = {
+		Who is wearing me? TinyDL-based user recognition in constrained personal
+		devices
+	},
+	author       = {Sanchez-Iborra, Ramon and Skarmeta, Antonio},
+	year         = 2022,
+	journal      = {IET Computers \& Digital Techniques},
+	volume       = 16,
+	number       = 1,
+	pages        = {1--9},
+	doi          = {https://doi.org/10.1049/cdt2.12035},
+	url          = {https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/cdt2.12035},
+	keywords     = {deep learning, IoT, TinyDL, wearables},
+	eprint       = {https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cdt2.12035},
+	abstract     = {
+		Abstract Deep learning (DL) techniques have been extensively studied to
+		improve their precision and scalability in a vast range of applications.
+		Recently, a new milestone has been reached driven by the emergence of the
+		TinyDL paradigm, which enables adaptation of complex DL models generated by
+		well-known libraries to the restrictions of constrained microcontroller-based
+		devices. In this work, a comprehensive discussion is provided regarding this
+		novel ecosystem, by identifying the benefits that it will bring to the
+		wearable industry and analysing different TinyDL initiatives promoted by tech
+		giants. The specific use case of automatic user recognition from data
+		captured by a wearable device is also presented. The whole development
+		process by which different DL configurations have been embedded in a real
+		microcontroller unit is described. The attained results in terms of accuracy
+		and resource usage confirm the validity of the proposal, which allows precise
+		predictions in a highly constrained platform with limited input information.
+		Therefore, this work provides insights into the viability of the integration
+		of TinyDL models within wearables, which may be valuable for researchers,
+		practitioners, and makers related to this industry.
+	},
 }
 
-@Article{cmc.2022.022610,
-AUTHOR = {Ramon Sanchez-Iborra, Luis Bernal-Escobedo, Jose Santa, Antonio Skarmeta},
-TITLE = {TinyML-Based Fall Detection for Connected Personal Mobility Vehicles},
-JOURNAL = {Computers, Materials \& Continua},
-VOLUME = {71},
-YEAR = {2022},
-NUMBER = {2},
-PAGES = {3869--3885},
-URL = {http://www.techscience.com/cmc/v71n2/45829},
-ISSN = {1546-2226},
-ABSTRACT = {A new wave of electric vehicles for personal mobility is currently crowding public spaces. They offer a sustainable and efficient way of getting around in urban environments, however, these devices bring additional safety issues, including serious accidents for riders. Thereby, taking advantage of a connected personal mobility vehicle, we present a novel on-device Machine Learning (ML)-based fall detection system that analyzes data captured from a range of sensors integrated on an on-board unit (OBU) prototype. Given the typical processing limitations of these elements, we exploit the potential of the TinyML paradigm, which enables embedding powerful ML algorithms in constrained units. We have generated and publicly released a large dataset, including real riding measurements and realistically simulated falling events, which has been employed to produce different TinyML models. The attained results show the good operation of the system to detect falls efficiently using embedded OBUs. The considered algorithms have been successfully tested on mass-market low-power units, implying reduced energy consumption, flash footprints and running times, enabling new possibilities for this kind of vehicles.},
-DOI = {10.32604/cmc.2022.022610}
+@article{cmc.2022.022610,
+	title        = {TinyML-Based Fall Detection for Connected Personal Mobility Vehicles},
+	author       = {Ramon Sanchez-Iborra, Luis Bernal-Escobedo, Jose Santa, Antonio Skarmeta},
+	year         = 2022,
+	journal      = {Computers, Materials \& Continua},
+	volume       = 71,
+	number       = 2,
+	pages        = {3869--3885},
+	doi          = {10.32604/cmc.2022.022610},
+	issn         = {1546-2226},
+	url          = {http://www.techscience.com/cmc/v71n2/45829},
+	abstract     = {
+		A new wave of electric vehicles for personal mobility is currently crowding
+		public spaces. They offer a sustainable and efficient way of getting around
+		in urban environments, however, these devices bring additional safety issues,
+		including serious accidents for riders. Thereby, taking advantage of a
+		connected personal mobility vehicle, we present a novel on-device Machine
+		Learning (ML)-based fall detection system that analyzes data captured from a
+		range of sensors integrated on an on-board unit (OBU) prototype. Given the
+		typical processing limitations of these elements, we exploit the potential of
+		the TinyML paradigm, which enables embedding powerful ML algorithms in
+		constrained units. We have generated and publicly released a large dataset,
+		including real riding measurements and realistically simulated falling
+		events, which has been employed to produce different TinyML models. The
+		attained results show the good operation of the system to detect falls
+		efficiently using embedded OBUs. The considered algorithms have been
+		successfully tested on mass-market low-power units, implying reduced energy
+		consumption, flash footprints and running times, enabling new possibilities
+		for this kind of vehicles.
+	},
 }
 
 @article{10.1371/journal.pone.0260060,
-    doi = {10.1371/journal.pone.0260060},
-    author = {Egea-Lopez, Esteban AND Molina-Garcia-Pardo, Jose Maria AND Lienard, Martine AND Degauque, Pierre},
-    journal = {PLOS ONE},
-    publisher = {Public Library of Science},
-    title = {Opal: An open source ray-tracing propagation simulator for electromagnetic characterization},
-    year = {2021},
-    month = {11},
-    volume = {16},
-    url = {https://doi.org/10.1371/journal.pone.0260060},
-    pages = {1-19},
-    abstract = {Accurate characterization and simulation of electromagnetic propagation can be obtained by ray-tracing methods, which are based on a high frequency approximation to the Maxwell equations and describe the propagating field as a set of propagating rays, reflecting, diffracting and scattering over environment elements. However, this approach has been usually too computationally costly to be used in large and dynamic scenarios, but this situation is changing thanks the increasing availability of efficient ray-tracing libraries for graphical processing units. In this paper we present Opal, an electromagnetic propagation simulation tool implemented with ray-tracing on graphical processing units, which is part of the Veneris framework. Opal can be used as a stand-alone ray-tracing simulator, but its main strength lies in its integration with the game engine, which allows to generate customized 3D environments quickly and intuitively. We describe its most relevant features and provide implementation details, highlighting the different simulation types it supports and its extension possibilites. We provide application examples and validate the simulation on demanding scenarios, such as tunnels, where we compare the results with theoretical solutions and further discuss the tradeoffs between the simulation types and its performance.},
-    number = {11},
-
+	title        = {
+		Opal: An open source ray-tracing propagation simulator for electromagnetic
+		characterization
+	},
+	author       = {
+		Egea-Lopez, Esteban AND Molina-Garcia-Pardo, Jose Maria AND Lienard, Martine
+		AND Degauque, Pierre
+	},
+	year         = 2021,
+	month        = 11,
+	journal      = {PLOS ONE},
+	publisher    = {Public Library of Science},
+	volume       = 16,
+	number       = 11,
+	pages        = {1--19},
+	doi          = {10.1371/journal.pone.0260060},
+	url          = {https://doi.org/10.1371/journal.pone.0260060},
+	abstract     = {
+		Accurate characterization and simulation of electromagnetic propagation can
+		be obtained by ray-tracing methods, which are based on a high frequency
+		approximation to the Maxwell equations and describe the propagating field as
+		a set of propagating rays, reflecting, diffracting and scattering over
+		environment elements. However, this approach has been usually too
+		computationally costly to be used in large and dynamic scenarios, but this
+		situation is changing thanks the increasing availability of efficient
+		ray-tracing libraries for graphical processing units. In this paper we
+		present Opal, an electromagnetic propagation simulation tool implemented with
+		ray-tracing on graphical processing units, which is part of the Veneris
+		framework. Opal can be used as a stand-alone ray-tracing simulator, but its
+		main strength lies in its integration with the game engine, which allows to
+		generate customized 3D environments quickly and intuitively. We describe its
+		most relevant features and provide implementation details, highlighting the
+		different simulation types it supports and its extension possibilites. We
+		provide application examples and validate the simulation on demanding
+		scenarios, such as tunnels, where we compare the results with theoretical
+		solutions and further discuss the tradeoffs between the simulation types and
+		its performance.
+	},
 }
 
 @article{ALABARCE2022100651,
-title = {Optical network design and analysis tools: A test of time},
-journal = {Optical Switching and Networking},
-volume = {44},
-pages = {100651},
-year = {2022},
-issn = {1573-4277},
-doi = {https://doi.org/10.1016/j.osn.2021.100651},
-url = {https://www.sciencedirect.com/science/article/pii/S1573427721000485},
-author = {Miquel Garrich Alabarce and Pablo Pavón Mariño},
-keywords = {Multi-layer networks, Network function virtualization, Network planning, Optical communications, Software defined networking},
-abstract = {Telecom operators' infrastructure is sustained by optical communication networks that provide the means for exchanging large amounts of information, which is essential for many modern society needs. Optical networks are characterized by rapid breakthroughs in a variety of technologies. Relevantly, the last decade encompassed remarkable advances in optical networks’ subfields of signal processing, electronics, photonics, communications, protocols, and control-plane architectures. Hence, these advancements unlocked unprecedented transmission capacities, reconfigurability and programmability, entailing an evolution in the way which networks were designed, planned, and analyzed. In this paper, we review the historical status of optical planning and design tools by focusing on the major enabling technologies and relevant landmarks of the last decade(s). We begin by pinpointing the major breakthroughs in the optical data plane, estimation models capturing the transmission medium behavior and the control plane. We then distil the implications that these advancements entail in the landscape of optical network design and analysis tools, which commonly sit “on top” of the control plane or as a fully separated entity. Then, we speculate with our view for the future, in which automatic validation of optical network operations and dimensioning jointly with learning/artificial intelligence mechanisms will permit zero-touch optical networking: i.e. updating, provisioning, and upgrading network capacities, by means of automation with minimal human intervention. We conclude with a proposal of an architecture that encompasses data and control planes in a comprehensive manner for paving the way towards zero-touch optical networking.}
+	title        = {Optical network design and analysis tools: A test of time},
+	author       = {Miquel Garrich Alabarce and Pablo Pav\'{o}n Mari\~{n}o},
+	year         = 2022,
+	journal      = {Optical Switching and Networking},
+	volume       = 44,
+	pages        = 100651,
+	doi          = {https://doi.org/10.1016/j.osn.2021.100651},
+	issn         = {1573-4277},
+	url          = {https://www.sciencedirect.com/science/article/pii/S1573427721000485},
+	keywords     = {
+		Multi-layer networks, Network function virtualization, Network planning,
+		Optical communications, Software defined networking
+	},
+	abstract     = {
+		Telecom operators' infrastructure is sustained by optical communication
+		networks that provide the means for exchanging large amounts of information,
+		which is essential for many modern society needs. Optical networks are
+		characterized by rapid breakthroughs in a variety of technologies.
+		Relevantly, the last decade encompassed remarkable advances in optical
+		networks' subfields of signal processing, electronics, photonics,
+		communications, protocols, and control-plane architectures. Hence, these
+		advancements unlocked unprecedented transmission capacities,
+		reconfigurability and programmability, entailing an evolution in the way
+		which networks were designed, planned, and analyzed. In this paper, we review
+		the historical status of optical planning and design tools by focusing on the
+		major enabling technologies and relevant landmarks of the last decade(s). We
+		begin by pinpointing the major breakthroughs in the optical data plane,
+		estimation models capturing the transmission medium behavior and the control
+		plane. We then distil the implications that these advancements entail in the
+		landscape of optical network design and analysis tools, which commonly sit
+		``on top'' of the control plane or as a fully separated entity. Then, we
+		speculate with our view for the future, in which automatic validation of
+		optical network operations and dimensioning jointly with learning/artificial
+		intelligence mechanisms will permit zero-touch optical networking: i.e.
+		updating, provisioning, and upgrading network capacities, by means of
+		automation with minimal human intervention. We conclude with a proposal of an
+		architecture that encompasses data and control planes in a comprehensive
+		manner for paving the way towards zero-touch optical networking.
+	},
 }
 
-@ARTICLE{9526602,
-  author={Aznar-Poveda, Juan and Garcia-Sanchez, Antonio-Javier and Egea-Lopez, Esteban and García-Haro, Joan},
-  journal={IEEE Access}, 
-  title={Simultaneous Data Rate and Transmission Power Adaptation in V2V Communications: A Deep Reinforcement Learning Approach}, 
-  year={2021},
-  volume={9},
-  number={},
-  pages={122067-122081},
-  doi={10.1109/ACCESS.2021.3109422}}
+@article{9526602,
+	title        = {
+		Simultaneous Data Rate and Transmission Power Adaptation in V2V
+		Communications: A Deep Reinforcement Learning Approach
+	},
+	author       = {
+		Aznar-Poveda, Juan and Garcia-Sanchez, Antonio-Javier and Egea-Lopez, Esteban
+		and Garc\'{\i}a-Haro, Joan
+	},
+	year         = 2021,
+	journal      = {IEEE Access},
+	volume       = 9,
+	number       = {},
+	pages        = {122067--122081},
+	doi          = {10.1109/ACCESS.2021.3109422},
+}
 
-
-
-
-Redirecting
+@article{RUZNIETO2023100964,
+	title        = {
+		A 3D simulation framework with ray-tracing propagation for LoRaWAN
+		communication
+	},
+	author       = {
+		Andres Ruz-Nieto and Esteban Egea-Lopez and Jose-Mar\i{}a
+		Molina-Garc\i{}a-Pardo and Jose Santa
+	},
+	year         = 2023,
+	journal      = {Internet of Things},
+	volume       = 24,
+	pages        = 100964,
+	doi          = {https://doi.org/10.1016/j.iot.2023.100964},
+	issn         = {2542-6605},
+	url          = {https://www.sciencedirect.com/science/article/pii/S2542660523002871},
+	keywords     = {LoRaWAN, IoT, Simulation, Ray-tracing, LP-WAN},
+	abstract     = {
+		The adoption of Low-Power Wide-Area Networks (LP-WAN) for interconnecting
+		remote wireless sensors has become a reality in smart scenarios, covering
+		communications needs of large Internet of Things (IoT) deployments. The
+		correct operation and expected performance of such network scenarios, which
+		can range hundreds or thousands of nodes and tens of squared kilometres,
+		should be assessed before carrying out the deployment to save installation
+		and maintenance costs. Common network planning tools can help to roughly
+		study potential coverage, but network simulation offers fine-grained
+		information about network performance. Nevertheless, current simulation
+		frameworks include limited propagation models based on statistical and
+		empirical measurements that do not consider scenario particularities, such as
+		terrain elevation, buildings or vegetation. This is critical in urban
+		settings. In this line, this paper presents a simulation framework including
+		a network simulator, a 3D engine and a ray-tracing tool, which models
+		realistically the performance of Long-Range Wide-Area Network (LoRaWAN)
+		communication technology. We have evaluated the performance of the solution
+		taking as reference experimental campaigns in the city of Cartagena (Spain),
+		comparing data obtained when simulating with the commonly employed
+		propagation models such as Okumura–Hata or path loss. Results indicate that
+		our framework, set-up with data from open geographical information systems,
+		accurately fits experimental values, reporting improvements between 10\% and
+		50\% in the error committed when estimating signal strength in challenging
+		urban streets with signal obstruction, as compared with the better performing
+		classical model, Okumura–Hata.
+	},
+}
