@@ -1,5 +1,5 @@
 ---
-title: Investigadores de la UPCT usan patinetes para recoger datos de la calidad del aire
+title: UPCT researchers use scooters to collect air quality data
 date: 2024-09-17
 draft: false
 abstract: "Researchers from the Technical School of Telecommunications Engineering of the Polytechnic University of Cartagena (UPCT) have installed a parking and charging station for scooters on the Muralla del Mar campus. The researchers propose to use these personal mobility vehicles to collect data on pollution and process them with artificial intelligence (AI) techniques to predict situations of high pollution, and make decisions such as road traffic management or the recommendation of healthy pedestrian routes.
