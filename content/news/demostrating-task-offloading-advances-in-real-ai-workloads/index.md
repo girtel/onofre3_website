@@ -1,0 +1,8 @@
+---
+title: Demonstrating task offloading advances in real AI workloads
+date: 2024-09-27
+draft: false
+abstract: "Ph.D. Student Andres Ruz-Nieto participated in the MobiCom 2023 conference, held in Madrid from October 2-6. MobiCom, renowned as one of the paramount international conferences in the domain of mobile networks and computing. He has presented the advances of a simulation framework that uses 3D environment modeling and ray-tracing to obtain realistic results of LoRaWAN deployments. The event facilitated a platform for the exchange of innovative research findings and developments. During the demonstrative and poster session, Ruz-Nieto presented the work produced within his research group, thereby availing it to constructive feedback from fellow participants and industry peers."
+---
+On Friday 27th September, the UMU team participated in the event held in Murcia on the occasion of the European Researchers' Night. Advances and technologies used in ONOFRE-3 were presented to the general public, all of them framed in the research fields of AI and networks of the future. Thus, a real-time demonstration was given of an AI capable of inferring a person's emotions through their image captured by a state-of-the-art camera, capable of processing AI models. Thus, one of the key functionalities in the project was demonstrated: offloading of AI-based processing functions to the edge. In addition, a fully functional 5G network was deployed and demonstrated, this being the technology that underpins all the research developed in ONOFRE-3. In parallel to these demonstrations, educational games were also offered with questions and answers on basic concepts and applications covered in the project: IoT, vehicular networks, smart-cities, etc.
+<!--more-->
