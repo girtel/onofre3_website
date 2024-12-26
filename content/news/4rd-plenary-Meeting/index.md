@@ -1,6 +1,6 @@
 ---
 title: 4rd Plenary Meeting of the Project
-date: 2024-12-01
+date: 2024-12-11
 draft: false
 abstract: On December 11th, 2024, the fourth plenary meeting of the project took place at the UVA facilities, bringing together representatives from UPCT, UVA, UMU, and I2Cat. The meeting agenda covered a review of the project’s main objectives and tasks, an overview of the key progress achieved by the four participating institutions, and several technical sessions featuring specific research contributions.
 ---
