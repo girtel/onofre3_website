@@ -36,7 +36,7 @@ jobs:
     name: Generate files
     steps:
       - name: 🛒 Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
@@ -47,12 +47,12 @@ jobs:
       - name: 📥 Install Dart Sass
         run: sudo snap install dart-sass
       - name: ✨ Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
       - name: ⚙️ Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
       - name: 📥 Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: ✨ Install Academic CLI GIRTEL modified
@@ -79,7 +79,7 @@ jobs:
 #        run: |
 #          cp -r ./aditionalFiles/files ./public/files/
       - name: 📤 Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
@@ -94,7 +94,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
 
           # Deployment job
   deploy-girtel-sv:
@@ -103,7 +103,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📥 Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
       - name: ⚙ Process artifact
         run: |
           cd github-pages
